@@ -1,0 +1,8 @@
+.gradle/
+build/
+idea-sandbox/
+docs/_full.png
+*.iml
+.idea/
+.DS_Store
+.intellijPlatform/
