@@ -1,22 +1,30 @@
 <idea-plugin>
     <id>com.edsuuu.spotify.player</id>
     <name>Spotify Player</name>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <vendor url="https://github.com/edsuuu">edsuuu</vendor>
 
     <description><![CDATA[
-        Controle o Spotify sem sair da sua IDE JetBrains.<br/>
+        Control Spotify without leaving your JetBrains IDE.<br/>
         <ul>
-            <li>Música atual com capa e barra de progresso</li>
-            <li>Play / Pause, próxima e anterior</li>
-            <li>Modo aleatório (shuffle) com um clique</li>
-            <li>Fila de reprodução em tempo real</li>
-            <li>Favoritar / remover músicas (Liked Songs)</li>
-            <li>Música atual na barra de status</li>
+            <li>Current track with cover art and progress bar</li>
+            <li>Play / pause, next and previous</li>
+            <li>Shuffle mode with a single click</li>
+            <li>Real-time playback queue with cover art</li>
+            <li>Click a track in the queue to play it</li>
+            <li>Save / remove tracks (Liked Songs)</li>
+            <li>Current track shown in the status bar</li>
         </ul>
-        Funciona em qualquer IDE JetBrains (IntelliJ, PhpStorm, WebStorm, PyCharm, GoLand…).
-        Requer uma conta Spotify. Controles de reprodução e fila exigem Spotify Premium.
+        Works in any JetBrains IDE (IntelliJ IDEA, PhpStorm, WebStorm, PyCharm, GoLand, and more).<br/>
+        Requires a Spotify account. Playback controls and the queue require Spotify Premium.
     ]]></description>
+
+    <change-notes><![CDATA[
+        <b>1.0.1</b>
+        <ul><li>Plugin description translated to English.</li></ul>
+        <b>1.0.0</b>
+        <ul><li>Initial release.</li></ul>
+    ]]></change-notes>
 
     <depends>com.intellij.modules.platform</depends>
 
