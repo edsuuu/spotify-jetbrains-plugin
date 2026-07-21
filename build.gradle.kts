@@ -33,7 +33,7 @@ intellijPlatform {
     pluginConfiguration {
         ideaVersion {
             sinceBuild = "261"
-            untilBuild = "261.*"
+            untilBuild = provider { null }
         }
     }
     sandboxContainer = layout.projectDirectory.dir("idea-sandbox")
