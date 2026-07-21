@@ -37,6 +37,9 @@ intellijPlatform {
         }
     }
     sandboxContainer = layout.projectDirectory.dir("idea-sandbox")
+    publishing {
+        token = providers.environmentVariable("PUBLISH_TOKEN")
+    }
 }
 
 tasks {
